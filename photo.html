@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width initial-scale=1.0">
+    <title>Барбершоп "Бородинский"</title>
+    
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700&amp;subset=cyrillic" rel="stylesheet">
+    
+    <link rel="stylesheet" href="css/style.min.css">
+</head>
+<body>
+    <header class="page-header">
+      <a class="page-header__logo page-header__logo--other-pages">
+       <picture>
+       <source media="(min-width : 1200px)" srcset="img/logo_desktop.svg">
+       <source media="(min-width : 768px)" srcset="img/logo_tablet.svg">
+        <img src="img/logo_sm.svg" alt="Барбершоп Бородинский" class="page-header__logo-image" width="226" height="30">
+        </picture>
+        </a>
+    
+    <nav class="main-nav main-nav--opened main-nav--nojs">
+       <button class="main-nav__toggle" type="button"><span class="visually-hidden">Открыть меню</span></button>
+       <div class="main-nav__wrapper">
+        <ul class="main-nav__list site-list">
+            <li class="site-list__item"><a href="index.html">Главная</a></li>
+            <li class="site-list__item site-list__item--active"><a>Наши работы</a></li>
+            <li class="site-list__item"><a href="form.html">Записаться</a></li>
+            <li class="site-list__item"><a href="#">Контакты</a></li>
+            <li class="site-list__item"><a href="#">HTML Academy</a></li>
+        </ul>
+        <ul class="main-nav__list user-list">
+            <li class="user-list__item">
+            <a href="login.html" class="user-list__login">Войти</a>
+            </li>
+        </ul>
+        </div>
+    </nav>
+    </header>
+    
+    <main class="photo-main">
+       <div class="photo-main__wrapper">
+        <h1 class="photo-main__title visually-hidden">Барбершоп "Бородинский" - истинно мужская классика</h1>
+        <section class="photo-main__photo">
+          <div class="photo__wrapper">
+           <h2 class="photo__header">Наши работы</h2>
+            <div class="photo__item">
+            
+                <picture>
+                <source media="(min-width : 1200px)" srcset="img/photo-1-desk.png">
+                <source media="(min-width : 768px)" srcset="img/photo-1-tab.png">
+                <img src="img/photo-1-mob.png " alt="Лжепетр Мчиславский" class="photo__img">
+                </picture>
+                <div class="photo__description">
+                <h3 class="photo__title">Лжепётр Мчиславский</h3>
+                <p class="photo__text">Где я только не стригся, но так как делаете это вы - не умеет никто другой! Еще раз спасибо и до скорого!</p>
+                <div class="photo__mini clearfix">
+                <span class="photo__features photo__features--cut">Стрижка</span>
+                <span class="photo__features photo__features--beard">Бритье</span>
+                <span class="photo__features photo__features--must">Усы</span>
+                </div>
+                </div>
+                <div class="month-top photo__month-top">Работа месяца</div>
+            </div>
+            <div class="photo__item">
+                <picture>
+                <source media="(min-width : 1200px)" srcset="img/photo-2-desk.png">
+                <source media="(min-width : 768px)" srcset="img/photo-2-tab.png">
+                <img src="img/photo-2-mob.png " alt="Cаша мальцев" class="photo__img">
+                </picture>
+                <div class="photo__description">
+                <h3 class="photo__title">Саша Мальцев</h3>
+                <p class="photo__text">Попросил омолодить и омолодили! Кто теперь скажет, что мне 45?</p>
+                <div class="photo__mini clearfix">
+                <span class="photo__features photo__features--cut">Стрижка</span>
+                </div>
+                </div>
+            </div>
+            <div class="photo__item">
+                <picture>
+                <source media="(min-width : 1200px)" srcset="img/photo-3-desk.png">
+                <source media="(min-width : 768px)" srcset="img/photo-3-tab.png">
+                <img src="img/photo-3-mob.png " alt="Владимир Иваныч" class="photo__img">
+                </picture>
+                <div class="photo__description">
+                <h3 class="photo__title">Владимир Иваныч</h3>
+                <p class="photo__text">К зимнему сезону - готов!</p>
+                <div class="photo__mini clearfix">
+                <span class="photo__features photo__features--cut">Стрижка</span>
+                <span class="photo__features photo__features--must">Усы</span>
+                </div>
+                </div>
+            </div>
+            <div class="photo__item">
+                <picture>
+                <source media="(min-width : 1200px)" srcset="img/photo-4-desk.png">
+                <source media="(min-width : 768px)" srcset="img/photo-4-tab.png">
+                <img src="img/photo-4-mob.png " alt="Винстон Синий" class="photo__img">
+                </picture>
+                <div class="photo__description">
+                <h3 class="photo__title">Винстон синий</h3>
+                <p class="photo__text">Как только зарастаю и волосы начинают мешать видеть - бегом в Бородинский!</p>
+                <div class="photo__mini clearfix">
+                <span class="photo__features photo__features--cut">Стрижка</span>
+                </div>
+                </div>
+            </div>
+            </div>
+        </section>
+        <section class="price photo-main__price ">
+           <div class="price__wrapper ">
+            <h2 class="price__title">Прейскурант</h2>
+            <table class="price__table">
+                <tr>
+                    <td class="price__number">1</td>
+                    <td class="price__text-1"><b>Классическая стрижка</b></td>
+                    <td class="price__text-2">c мытьем головы</td>
+                    <td class="price__text"><b>Классическая стрижка</b><br>(с мытьем головы)</td>
+                    <td class="price__money">1 500 руб.</td>
+                </tr>
+                <tr>
+                    <td class="price__number">2</td>
+                    <td class="price__text-1"><b>Современный вариант</b></td>
+                    <td class="price__text-2">c мытьем головы</td>
+                    <td class="price__text"><b>Современный вариант</b><br>(с мытьем головы)</td>
+                    <td class="price__money">1 500 руб.</td>
+                </tr>
+                <tr>
+                    <td class="price__number">3</td>
+                    <td class="price__text-1"><b>Индивидуальный подход</b></td>
+                    <td class="price__text-2">c мытьем головы</td>
+                    <td class="price__text"><b>Индивидуальный подход</b><br>(с мытьем головы)</td>
+                    <td class="price__money">2 000 руб.</td>
+                </tr>
+                <tr>
+                    <td class="price__number">4</td>
+                    <td class="price__text-1"><b>Бритьё бороды</b></td>
+                    <td class="price__text-2">без мытья</td>
+                    <td class="price__text"><b>Бритьё бороды</b><br>(без мытья)</td>
+                    <td class="price__money">300 руб.</td>
+                </tr>
+                <tr>
+                    <td class="price__number">5</td>
+                    <td class="price__text-1"><b>Бритьё головы</b></td>
+                    <td class="price__text-2">без мытья</td>
+                    <td class="price__text"><b>Бритьё головы</b><br>(без мытья)</td>
+                    <td class="price__money">500 руб.</td>
+                </tr>
+                <tr><td class="price__number">6</td>
+                    <td class="price__text-1"><b>Бритьё головы</b></td>
+                    <td class="price__text-2">c мытьем головы</td>
+                    <td class="price__text"><b>Бритьё головы</b><br>(c мытьем головы)</td>
+                    <td class="price__money">1 000 руб.</td>
+                </tr>
+                
+            </table>
+            <div class="price__time clearfix">
+            <picture>
+            <source media="(min-width:768px)" srcset="img/clock_desk.svg">
+            <img src="img/clock_sm.svg" alt="clock" class="price__time-image">
+            </picture>
+            <span class="price__time-text">C 10:00 до 14:00 <br>скидка 20%</span></div>
+            </div>
+        </section>
+    </div>
+    </main>
+    <footer class="page-footer">
+       <div class="page-footer__wrapper">
+        <div class="page-footer__contacts contacts">
+            <b class="contacts__title">Барбершоп "Бородинский"</b>
+            <p class="contacts__text">г.Санкт-Петербург,<br> ул. Большая Конюшенная 19/8
+                <a href="tel:+7182555678" class="contacts__phone button"><span class="contacts__phone-mobile">Тел.:</span>+7 (812) 555-68-89
+                </a>
+            </p>
+        </div>
+        <div class="page-footer__social social">
+           <b class="social__title">Давайте дружить!</b>
+            <ul class="social__list">
+                <li class="social__item"><a href="" class="social__link social__link--vkontakte">Мы Вконтакте</a></li>
+                <li class="social__item"><a href="" class="social__link social__link--facebook">Мы в Фейсбук</a></li>
+                <li class="social__item"><a href="" class="social__link social__link--instagram">Мы в Инстаграм</a></li>
+            </ul>
+        </div>
+        <div class="page-footer__copyright copyright ">
+        <b class="copyright__text">Разработано:</b>
+        <a href="" class="button copyright__link">HTML Academy</a>
+        </div>
+        </div>
+    </footer>
+    <script src="js/script.js"></script>
+</body>
+</html>
